@@ -1,0 +1,131 @@
+html{
+
+
+    display: flex;
+}
+canvas{
+    left: 100px;
+    border-radius: 16pt;
+    z-index: 4;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+canvas:hover{
+    box-shadow: 0 13px 16px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    color: #373737;
+    line-height: 26px;
+    text-align: left;
+    overflow-x: hidden;
+    margin: auto;
+    width: 100%;
+    outline: none;
+}
+
+
+.button{
+    background-color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: darkslategray;
+    padding: 8pt;
+    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: 5px auto;
+    z-index: 5;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    height: 60px;
+}
+.button:hover{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.7);
+    width: 62%;
+    height: 62px;
+}
+.input{
+    display: block;
+}
+.roundButton{
+    background-color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: darkslategray;
+    padding: 8pt;
+    width:  100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 24pt;
+    margin: 5px auto;
+    z-index: 5;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+.roundButton:hover{
+    box-shadow: 0 13px 16px rgba(0, 0, 0, 0.5);
+    width: 105px;
+    height: 105px;
+}
+.control{
+    right: 10px;
+    position: absolute;
+    width: 40vw;
+    margin: 16pt auto;
+    color: #d8d8d8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    min-height: 144pt;
+    background-color: darkslategray;
+    padding: 16pt;
+    border-radius: 16pt;
+    font-size: 22pt;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 4;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.7);
+}
+.control:hover{
+    box-shadow: 0 13px 16px rgba(0, 0, 0, 0.5);
+}
+
+
+select{
+    border: 0;
+    font-weight: bold;
+    *width: 350px;
+    background-color: whitesmoke;
+    -webkit-appearance: none;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: darkslategray;
+    padding: 8pt;
+    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: 5px auto;
+    z-index: 5;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    height: 60px;
+}
+select:hover{
+    box-shadow: 0 13px 16px rgba(0, 0, 0, 0.5);
+}
+

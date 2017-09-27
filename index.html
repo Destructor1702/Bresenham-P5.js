@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Kibus</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="cell.js" type="text/javascript"></script>
+
+    <style> body {
+        padding: 20px;
+        margin: 0;
+        display: flex
+    }
+
+    canvas {
+        vertical-align: top;
+    } </style>
+</head>
+<body>
+
+
+<div class="control">
+    <strong style="font-weight: bold; font-size: 32pt">Control
+    </strong>
+
+
+    <button class="button" style="background-color: coral"
+            onclick="location.href='index.html';">
+       Reiniciar
+    </button>
+    <br>
+
+    <button class="roundButton" id="Kb_btn" style="
+                  background-color: steelblue; color: aliceblue"
+            onclick="en_start = true; ">Inicio
+    </button>
+    <button class="roundButton" style="
+                  background-color: steelblue;color: aliceblue"
+            onclick="en_end   = true;">Fin
+    </button>
+    <br>
+    <br>
+    Algoritmo:
+    <select id="selAlgoritm">
+    <option value="BR">Bresenham</option>
+    <option value="PNT">Punto pendiente</option>
+    </select>
+    <button class="button" onclick="
+                  locked = true;
+     ">Camino!
+    </button>
+    <button class="button"
+            style="background-color: red; color: whitesmoke"
+            onclick="
+                  locked = false;
+     ">Parar!
+    </button>
+    <br>
+    <small style="font-size: 10pt"> Copyright (c) 2017 Diego Vallejo</small>
+</div>
+</body>
+</html>
